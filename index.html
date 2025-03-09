@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voice Actor Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>John Doe - Voice Actor</h1>
+        <p>Bringing words to life with a dynamic voice.</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#demos">Demos</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm John Doe, a professional voice actor with a passion for storytelling.</p>
+    </section>
+
+    <section id="demos">
+        <h2>Voice Demos</h2>
+        <div class="demo">
+            <p>Commercial Demo</p>
+            <button onclick="playAudio('demo1')">▶ Play</button>
+            <audio id="demo1" src="assets/demo1.mp3"></audio>
+        </div>
+        <div class="demo">
+            <p>Character Demo</p>
+            <button onclick="playAudio('demo2')">▶ Play</button>
+            <audio id="demo2" src="assets/demo2.mp3"></audio>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:john.doe@email.com">john.doe@email.com</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 John Doe. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
